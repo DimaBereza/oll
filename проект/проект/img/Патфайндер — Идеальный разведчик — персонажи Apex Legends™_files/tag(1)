@@ -1,0 +1,49 @@
+BrightTag.site('QIXnMuB',function(s){
+s.dbe('user id :: nucleus id', '(function(){\r\n\tif (window.tlm_user !\x3d undefined) {\r\n\t\treturn window.tlm_user.getStoredUserid();\r\n\t} else {\r\n\t\treturn \x22\x22\r\n\t}\r\n})();',{pageId:2339330});
+s.dbe('ea browser flag', '/EA Download Manager/.test(navigator.userAgent)',{pageId:2325788});
+s.dbe('signal universal id', '\x27SgYtjUKgduSnL1MO2WnPDiXQHAfGKJ/EIAqJYxQ5xvo\\x3d\x27');
+s.dbe('nucleus_id', '\x271001027904328\x27');
+s.dbe('utm_campaign', 'bt_parameter(\x27utm_campaign\x27)',{pageId:2325788});
+s.dbe('utm_medium', 'bt_parameter(\x27utm_medium\x27)',{pageId:2325788});
+s.dbe('ip address', '\x2746.200.83.49\x27');
+s.dbe('user agent', '\x27Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36\x27');
+s.dbe('language', '\x27ru-RU,ru;q\\x3d0.9,en-US;q\\x3d0.8,en;q\\x3d0.7\x27');
+s.dbe('page url', 'window.location.href',{pageId:2325788});
+s.dbe('gdpr', '\x270\x27');
+s.dbe('utm_term', 'bt_parameter(\x27utm_term\x27)',{pageId:2325788});
+s.dbe('referrer', '\x27https://www.ea.com/ru-ru/games/apex-legends/about/characters/pathfinder\x27');
+s.dbe('do not track', '\x27\x27');
+s.dbe('timestamp ms', '\x271557491626259\x27');
+s.dbe('utm_source', 'bt_parameter(\x27utm_source\x27)',{pageId:2325788});
+s.dbe('nucleus_id_web', '\x271008319038716\x27');
+s.dbe('has_gcms?', '\x27true\x27');
+s.events.bind('user login event',document,'/ga/user/authenticated',{pageId:2325788}).dbe('user id :: nucleus id','eventObject.originalEvent.detail.userid;');
+s.events.bind('user login event',document,'/ga/user/login-success',{pageId:2339330}).dbe('user id :: nucleus id','(function(){\r\n\tif (window.tlm_user !\x3d undefined) {\r\n\t\treturn window.tlm_user.getStoredUserid();\r\n\t} else {\r\n\t\treturn \x22\x22\r\n\t}\r\n})();');
+s.when('bt_data(\x27ea browser flag\x27) !\x3d true',function(){
+s.events.on('user login event').evaluate('!!bt_data(\x27user id :: nucleus id\x27)').fire(5110392).appendData('user id :: nucleus id');
+});
+s.domready(function(){
+BrightTag.Content.image("https://analytics.spongecell.com/sync/12/?gdpr=0&r=https%3A%2F%2Fs.thebrighttag.com%2Fcs%3Ftp%3DZsQXgj9%26btt%3DaUGXaa1CFTKorqCCfsyaH5UxlilM4RAXo3RWKihJLYQ%26uid%3D%5BSPONGEKEY%5D");
+BrightTag.Content.image("https://pixel.quantserve.com/pixel/p-ZE4nvnx66V61C.gif?gdpr=0&csurl=s.thebrighttag.com%2Fcs%3Ftp%3DbYC15ie%26btt%3DaUGXaa1CFTKorqCCfsyaH5UxlilM4RAXo3RWKihJLYQ&idmatch=0");
+BrightTag.Content.image("https://gum.criteo.com/sync?gdpr=0&c=10&r=1&u=https%3A%2F%2Fs.thebrighttag.com%2Fcs%3Fbtt%3DaUGXaa1CFTKorqCCfsyaH5UxlilM4RAXo3RWKihJLYQ%26tp%3Dcr%26uid%3D%40USERID%40");s.secondary(function(c){
+c.when('(!!bt_data(\x27user id :: nucleus id\x27) \x26\x26 bt_data(\x27ea browser flag\x27) !\x3d true \x26\x26 bt_data(\x27user id :: nucleus id\x27) !\x3d 0)').fire(3940972).appendData('user id :: nucleus id');
+c.when('(!!bt_data(\x27nucleus_id\x27) \x26\x26 bt_data(\x27nucleus_id\x27) !\x3d 0 \x26\x26 !bt_data(\x27stop_processing\x27))').fire(8414).appendData('signal universal id').appendData('mta :: ad pixel - doubleclick user id').appendData('nucleus_id');
+c.when('(!!bt_data(\x27utm_campaign\x27) || !!bt_data(\x27utm_medium\x27) || !!bt_data(\x27utm_source\x27) || !!bt_data(\x27utm_term\x27))').fire(13741).appendData('utm_campaign').appendData('utm_medium').appendData('ip address').appendData('user agent').appendData('language').appendData('page url').appendData('gdpr').appendData('utm_term').appendData('signal universal id').appendData('referrer').appendData('do not track').appendData('timestamp ms').appendData('utm_source');
+c.when('!!bt_data(\x27user id :: nucleus id\x27)').fire(3948332);
+c.when('!!bt_data(\x27user id :: nucleus id\x27)').fire(4048890);
+c.when('!!bt_data(\x27user id :: nucleus id\x27) \x26\x26 !!bt_data(\x27nucleus_id\x27)').fire(4048918);
+c.when('!!bt_data(\x27signal_third_party_id\x27)').fire(4048978);
+c.when('bt_data(\x27ea browser flag\x27) \x3d\x3d true').fire(4049773);
+c.when('(!!bt_data(\x27user id :: nucleus id\x27) \x26\x26 bt_data(\x27ea browser flag\x27) \x3d\x3d true)').fire(4049780);
+c.when('!!bt_data(\x27user id :: nucleus id\x27) \x26\x26 !!bt_data(\x27nucleus_id_web\x27) \x26\x26 bt_data(\x27ea browser flag\x27) \x3d\x3d true').fire(4049786);
+c.when('!!bt_data(\x27signal_third_party_id\x27) \x26\x26 bt_data(\x27ea browser flag\x27) \x3d\x3d true').fire(4049793);
+c.when('((bt_data(\x27has_gcms?\x27) \x3d\x3d \x22false\x22 || bt_data(\x27has_gcms?\x27) \x3d\x3d \x22FALSE\x22) \x26\x26 (!!bt_data(\x27nucleus_id_web\x27)) \x26\x26 (bt_data(\x27ea browser flag\x27) !\x3d \x22true\x22))').fire(5098072);
+c.when('(bt_data(\x27ea browser flag\x27) !\x3d true \x26\x26 !!bt_data(\x27user id :: nucleus id\x27))').fire(5106747);
+c.when('bt_data(\x27nucleus_id_web\x27) \x3d\x3d 0').fire(5199917);
+c.when('bt_data(\x27ea browser flag\x27) !\x3d true').fire(7081522);
+c.when('bt_data(\x27ea browser flag\x27) !\x3d true').fire(7081529);
+c.when('!!bt_data(\x27nucleus_id\x27)').fire(7081536);
+c.appendData('page url');
+});
+});
+});

@@ -1,0 +1,36 @@
+html, body{
+	height: 100%;	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100%;	
+}
+div.container div{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow; 
+}
+.green{
+	background-color: green;
+}
+.orange{
+	background-color: orange;
+}
+button{
+	position: 	fixed;	
+	top: 	0;
+	right: 	0;
+}
